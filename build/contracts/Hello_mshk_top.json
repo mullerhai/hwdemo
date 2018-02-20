@@ -1,0 +1,325 @@
+{
+  "contractName": "Hello_mshk_top",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "say",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "name",
+          "type": "string"
+        }
+      ],
+      "name": "print",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6060604052341561000f57600080fd5b6102488061001e6000396000f30060606040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806311114af114610051578063954ab4b214610127575b600080fd5b341561005c57600080fd5b6100ac600480803590602001908201803590602001908080601f016020809104026020016040519081016040528093929190818152602001838380828437820191505050505050919050506101b5565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100ec5780820151818401526020810190506100d1565b50505050905090810190601f1680156101195780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b341561013257600080fd5b61013a6101c5565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561017a57808201518184015260208101905061015f565b50505050905090810190601f1680156101a75780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6101bd610208565b819050919050565b6101cd610208565b6040805190810160405280600e81526020017f48656c6c6f206d73686b2e746f70000000000000000000000000000000000000815250905090565b6020604051908101604052806000815250905600a165627a7a723058205b2273e6aa5b87565e28e1744187546b0ba63fe00657ce359675fab5e4ba7ddb0029",
+  "deployedBytecode": "0x60606040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806311114af114610051578063954ab4b214610127575b600080fd5b341561005c57600080fd5b6100ac600480803590602001908201803590602001908080601f016020809104026020016040519081016040528093929190818152602001838380828437820191505050505050919050506101b5565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100ec5780820151818401526020810190506100d1565b50505050905090810190601f1680156101195780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b341561013257600080fd5b61013a6101c5565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561017a57808201518184015260208101905061015f565b50505050905090810190601f1680156101a75780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6101bd610208565b819050919050565b6101cd610208565b6040805190810160405280600e81526020017f48656c6c6f206d73686b2e746f70000000000000000000000000000000000000815250905090565b6020604051908101604052806000815250905600a165627a7a723058205b2273e6aa5b87565e28e1744187546b0ba63fe00657ce359675fab5e4ba7ddb0029",
+  "sourceMap": "26:230:0:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "26:230:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;175:79;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:2;8:100;;;99:1;94:3;90;84:5;80:1;75:3;71;64:6;52:2;49:1;45:3;40:15;;8:100;;;12:14;3:109;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;78:78:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:2;8:100;;;99:1;94:3;90;84:5;80:1;75:3;71;64:6;52:2;49:1;45:3;40:15;;8:100;;;12:14;3:109;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;175:79:0;224:6;;:::i;:::-;245:4;238:11;;175:79;;;:::o;78:78::-;114:6;;:::i;:::-;128:23;;;;;;;;;;;;;;;;;;;;78:78;:::o;26:230::-;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.4.17;\n\ncontract Hello_mshk_top {\n\n  //say hello mshk.top\n  function say() public pure returns (string) {\n    return \"Hello mshk.top\";\n  }\n\n  //print name\n  function print(string name) public pure returns (string) {\n    return name;\n  }\n}",
+  "sourcePath": "/Users/geo/Documents/solidity/hwdemo/contracts/Hello_mshk_top.sol",
+  "ast": {
+    "attributes": {
+      "absolutePath": "/Users/geo/Documents/solidity/hwdemo/contracts/Hello_mshk_top.sol",
+      "exportedSymbols": {
+        "Hello_mshk_top": [
+          20
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.4",
+            ".17"
+          ]
+        },
+        "id": 1,
+        "name": "PragmaDirective",
+        "src": "0:24:0"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            20
+          ],
+          "name": "Hello_mshk_top",
+          "scope": 21
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": true,
+              "implemented": true,
+              "isConstructor": false,
+              "modifiers": [
+                null
+              ],
+              "name": "say",
+              "payable": false,
+              "scope": 20,
+              "stateMutability": "pure",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 2,
+                "name": "ParameterList",
+                "src": "90:2:0"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 9,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "string memory",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string storage pointer"
+                        },
+                        "id": 3,
+                        "name": "ElementaryTypeName",
+                        "src": "114:6:0"
+                      }
+                    ],
+                    "id": 4,
+                    "name": "VariableDeclaration",
+                    "src": "114:6:0"
+                  }
+                ],
+                "id": 5,
+                "name": "ParameterList",
+                "src": "113:8:0"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 5
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "hexvalue": "48656c6c6f206d73686b2e746f70",
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "subdenomination": null,
+                          "token": "string",
+                          "type": "literal_string \"Hello mshk.top\"",
+                          "value": "Hello mshk.top"
+                        },
+                        "id": 6,
+                        "name": "Literal",
+                        "src": "135:16:0"
+                      }
+                    ],
+                    "id": 7,
+                    "name": "Return",
+                    "src": "128:23:0"
+                  }
+                ],
+                "id": 8,
+                "name": "Block",
+                "src": "122:34:0"
+              }
+            ],
+            "id": 9,
+            "name": "FunctionDefinition",
+            "src": "78:78:0"
+          },
+          {
+            "attributes": {
+              "constant": true,
+              "implemented": true,
+              "isConstructor": false,
+              "modifiers": [
+                null
+              ],
+              "name": "print",
+              "payable": false,
+              "scope": 20,
+              "stateMutability": "pure",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "name",
+                      "scope": 19,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "string memory",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string storage pointer"
+                        },
+                        "id": 10,
+                        "name": "ElementaryTypeName",
+                        "src": "190:6:0"
+                      }
+                    ],
+                    "id": 11,
+                    "name": "VariableDeclaration",
+                    "src": "190:11:0"
+                  }
+                ],
+                "id": 12,
+                "name": "ParameterList",
+                "src": "189:13:0"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 19,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "string memory",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string storage pointer"
+                        },
+                        "id": 13,
+                        "name": "ElementaryTypeName",
+                        "src": "224:6:0"
+                      }
+                    ],
+                    "id": 14,
+                    "name": "VariableDeclaration",
+                    "src": "224:6:0"
+                  }
+                ],
+                "id": 15,
+                "name": "ParameterList",
+                "src": "223:8:0"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 15
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "overloadedDeclarations": [
+                            null
+                          ],
+                          "referencedDeclaration": 11,
+                          "type": "string memory",
+                          "value": "name"
+                        },
+                        "id": 16,
+                        "name": "Identifier",
+                        "src": "245:4:0"
+                      }
+                    ],
+                    "id": 17,
+                    "name": "Return",
+                    "src": "238:11:0"
+                  }
+                ],
+                "id": 18,
+                "name": "Block",
+                "src": "232:22:0"
+              }
+            ],
+            "id": 19,
+            "name": "FunctionDefinition",
+            "src": "175:79:0"
+          }
+        ],
+        "id": 20,
+        "name": "ContractDefinition",
+        "src": "26:230:0"
+      }
+    ],
+    "id": 21,
+    "name": "SourceUnit",
+    "src": "0:256:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
+  },
+  "networks": {
+    "1519098567902": {
+      "events": {},
+      "links": {},
+      "address": "0x0406c32090ffc9f73ffad02f5115fd791d8901b3"
+    }
+  },
+  "schemaVersion": "1.0.1",
+  "updatedAt": "2018-02-20T03:55:51.384Z"
+}
